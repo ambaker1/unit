@@ -1,5 +1,5 @@
 # [unit system]
-Framework for consistent engineering units
+Framework for consistent units
 
 Full documentation [here](https://raw.githubusercontent.com/ambaker1/unit/main/doc/unit.pdf).
  
