@@ -1,0 +1,7 @@
+build/**
+working/**
+doc/**
+!doc/unit.tex
+!doc/unit.pdf
+!doc/template/
+!doc/template/*.tex
