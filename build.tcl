@@ -1,13 +1,13 @@
 package require tin 0.7.2
 tin import assert from tin
 tin import tcltest
-set version 0.1.2
+set version 0.1.3
 set config [dict create VERSION $version]
 tin bake src build $config
 tin bake doc/template/version.tin doc/template/version.tex $config
 
 source build/unit.tcl
-namespace import unit::*
+# namespace import unit::*
 
 # Perform tests
 test main {

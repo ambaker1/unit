@@ -68,8 +68,7 @@ namespace eval ::unit {
         dict set subcommandMap $subcommand _$subcommand
     }
     # Create ensemble for export
-    namespace ensemble create -command unit -prefixes 0 -map $subcommandMap
-    namespace export unit
+    namespace ensemble create -prefixes 0 -map $subcommandMap
     # Breakdown of subcommands:
     ########################################################################
     # combine:  Combine units using unit string notation
@@ -894,4 +893,4 @@ proc ::unit::DefaultUnits {} {
 # 2. Unit expr should allow for addition and subtraction.
 
 # Finally, provide the package
-package provide unit 0.1.2
+package provide unit 0.1.3
