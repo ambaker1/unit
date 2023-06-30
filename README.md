@@ -1,4 +1,4 @@
-# unit
+# [unit system]
 Framework for consistent engineering units
 
 Full documentation [here](https://raw.githubusercontent.com/ambaker1/unit/main/doc/unit.pdf).
