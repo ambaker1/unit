@@ -1,7 +1,7 @@
-package require tin 0.7.2
+package require tin 1.0
 tin import assert from tin
 tin import tcltest
-set version 0.1.3
+set version 0.1.4
 set config [dict create VERSION $version]
 tin bake src build $config
 tin bake doc/template/version.tin doc/template/version.tex $config
