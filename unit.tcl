@@ -893,4 +893,4 @@ proc ::unit::DefaultUnits {} {
 # 2. Unit expr should allow for addition and subtraction.
 
 # Finally, provide the package
-package provide unit 0.1.3
+package provide unit 0.1.4
